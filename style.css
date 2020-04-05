@@ -1,0 +1,121 @@
+/* Demo form styles */
+
+#wrapper {
+    margin: 25px 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    background-color: #222;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    margin: -10px -40px;
+    padding: 30px 40px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-top: -1px !important;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 10px -40px;
+    margin-bottom: 30px;
+}
+
+#c-form {
+    width: 580px;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid #ab62ba;
+    padding: 0px 40px 0px;
+    margin-top: 70px;
+    margin: 0% 22%;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 99.5%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: raleway;
+}
+
+textarea {
+    width: 99.5%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: raleway;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #ab62ba;
+    color: white;
+    border: 2px solid #ab62ba;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #5c116b;
+    color: white;
+    border: 2px solid #5c116b;
+}
+
+#res {
+    margin-top: 0!important;
+}
+
+@media (max-width: 767px) {
+    #wrapper {
+        margin: 25px 0px;
+    }
+    #c-form {
+        max-width: 580px;
+        width: 80%;
+        padding: 0px 40px 0px;
+        margin-top: 70px;
+        margin: 0 0;
+    }
+    input[type=submit] {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+}
+
+
+/* End of the emo form styles */
+
+
+/* Include styles */
+
+#loader {
+    display: none;
+    width: 105px;
+    height: 20px;
+    padding: 5px 0 10px 0;
+    background: url(mail/loading.gif) no-repeat center center;
+}
